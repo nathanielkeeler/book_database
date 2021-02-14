@@ -1,0 +1,46 @@
+[
+    {
+        "book_name": "Ein verheißenes Land",
+        "release_date": "17.11.2020",
+        "authors": [
+            { "name": "Barack Obama", "uuid": "cfbc8d1d-b43d-5cce-9af5-3b183cd50077" }
+        ],
+        "publisher": "Penguin Verlag",
+        "isbn_13": "978-3328600626",
+        "genre": "Politik",
+        "pages": 1024
+    },
+    {
+        "book_name": "Das Kind in dir muss Heimat finden",
+        "release_date": "16.11.2015",
+        "authors": [
+            { "name": "Stefanie Stahl", "uuid": "525ca8a6-d679-57ef-80fc-d829561d9cdd" }
+        ],
+        "publisher": "Kailash",
+        "isbn_13": "978-3424631074",
+        "genre": "Selbstentwicklung",
+        "pages": 288
+    },
+    {
+        "book_name": "Eine kurze Geschichte der Menschheit",
+        "release_date": "02.09.2013",
+        "authors": [
+            { "name": "Yuval Noah Harari", "uuid": "fe4fee5f-9833-50ce-b35b-300664ab162c" }
+        ],
+        "publisher": "Deutsche Verlags-Anstalt",
+        "isbn_13": "978-3421045959",
+        "genre": "Geschichte",
+        "pages": 529
+    },
+    {
+        "book_name": "Becoming",
+        "release_date": "13.11.2018",
+        "authors": [
+            { "name": "Michelle Obama", "uuid": "e2bd0ca6-f2bb-5cb2-bb08-a58a31bed6f5" }
+        ],
+        "publisher": "Goldmann Verlag",
+        "isbn_13": "978-3442314874",
+        "genre": "Biografie",
+        "pages": 544
+    }
+]

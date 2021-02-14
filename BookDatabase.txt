@@ -1,0 +1,46 @@
+Mit Autor, Admin und User sind sowohl männliche als auch weibliche Personen gemeint.
+
+Aufgabe Bücherdatenbank:
+
+Zur Suche und Verwaltung von Büchern soll eine Software Applikation aufgebaut werden.
+Hierbei gibt es zwei unterschiedliche Rollen für die Software. Zu einem einen normalen User, 
+welcher lediglich nach Bücher und Autoren suchen kann. Sucht ein User nach einem Buch, so kann 
+dieser das über den Buchtitel oder über die eindeutige ISBN tun. Alle zum Titel passenden Bücher
+sollen dann beim Ausführen der Suche alphabetischen (asc) aufgelistet werden.
+Danach soll es die Möglichkeit geben ein Buch anzuzeigen, mit Titel, Veröffentlichungsjahr, Autor/en, 
+Herausgeber, ISBN-13, Buchtyp & Seitenanzahl. Wichtig: Ein Buch gehört immer mindestens zu einem Autor.
+Hinter dem Buchtyp verbirgt sich die Art des Buches, ob es ein Sachbuch, Roman, Krimi, Fantasy, Science Fiction 
+oder ein Thriller ist.
+
+Sucht der User nach einem Autor, so kann er das über den Vornamen und/oder den Nachnamen des Autors tun.
+Sobald ein Autor gefunden wurde, werden der Vor- und Nachname angezeigt, das Geburtsdatum, Geschlecht,
+die Anzahl der geschriebenen Bücher (Achtung: kann sich bei jedem neu angelegten Buch ändern) und die ersten drei Bücher
+alphabetisch sortierten Bücher mit Titel und Veröffentlichungsjahr aufgelistet.
+
+Der User der Software hat ebenfalls die Möglichkeit alle Bücher einer Rubrik anzusehen analog zur Büchersuche.
+Die Bücher müssen auch hier anzeigbar sein.
+
+Wenn kein Buch gefunden wurden, dann soll das entsprechend angezeigt werden, mit einem sprechenden Text.
+
+Beim User sollen Angaben gespeichert werden, wie viele Bücher bereits angesehen wurden. 
+Diese Zahl soll entsprechend anzeigbar sein, wenn der User die Auswahlmöglichkeit auswählt.
+Diese Angaben werden beim Beenden der Software verworfen.
+
+Die zweite Rolle im System ist der Admin, dieser hat die Möglichkeit neue Autoren, neue Bücher und neue Rubriken anzulegen.
+Ein Buch kann nur angelegt werden, wenn schon Autoren vorhanden sind. Ohne Autor kann ein Buch nicht existieren.
+Wenn keine Rubrik für das Buch angegeben wird, soll beim Buch bei Rubrik der Text (Keine) erscheinen.
+
+Für das Anlegen eines Autors ist es wichtig, zu überprüfen, ob das Geburtsdatum im korrekten Format ist und ob der Vor-
+und Nachname valide sind.
+Eine Rubrik besteht lediglich aus einem alphanumerischen Text (keine Sonderzeichen), 
+es können unendliche viele Rubriken angelegt werden.
+
+Der Admin muss sich entsprechend an der Software anmelden können, hierfür benötigt der Admin einen Benutzernamen
+und ein Passwort. Für das Anmelden an der Applikation reicht lediglich eine Eingabemaske mit 
+Benutzername und Passwort. Benutzername und Passwort können hardcodiert im Quellcode überprüft werden, bspw. (admin/1234).
+
+Sobald der Admin angemeldet ist kann er Bücher, Autoren und Rubriken anlegen.
+Darüber hinaus hat der Admin die gleichen Möglichkeiten wie der normale User.
+
+Beim Anlegen von Büchern und Autoren könnte Ihr gerne auf Amazon zurückgreifen:
+https://www.amazon.de/charts/2021-01-17/mostread/nonfiction/ref=dp_chrtbg_dbs_1 
