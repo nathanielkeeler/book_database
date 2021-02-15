@@ -50,7 +50,7 @@ class AuthService {
             else {
                 this._isAdmin = false;
                 this._isLoggedIn = false;
-                ConsoleHandling.print("Passwort falsch. Try again!");
+                ConsoleHandling.print("Passwort falsch. Try (admin) again!");
             }
         });
     }
